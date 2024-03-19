@@ -33,6 +33,7 @@ body{
 .contenedor .elemento label{
     color: beige;
     margin-bottom: 5px;
+    padding-bottom: 10px;
     
 }
 .contenedor .elemento input{
@@ -44,6 +45,7 @@ body{
     border: none;
     border-bottom: 1px ;
     margin-bottom: 30px;
+    margin-top: 10px;
 }
 
 .contenedor .elemento input[type="submit"]{

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulario de Registro</title>
+</head>
+<body>
+    <div class="contenedor">
+        <h2>Formulario de registros HTML</h2>
+        <form action="">
+            <fieldset>
+                <legend class="elemento">Datos Personales</legend>
+                <div class="elemento">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required><br>
+                </div>
+                <div class="elemento">
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" placeholder="Escribe tu Apellido" required><br>
+                </div>
+                <div class="elemento">
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" placeholder="Escribe tu Apellido" required><br>
+                </div>
+                <div class="elemento">
+                    <label for="password">password:</label>
+                    <input type="password" id="password" name="password"  required><br>
+                </div>
+                <div class="elemento">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="abc@def.com" required><br>
+                </div>
+                <div class="elemento">
+                    <label for="edad">Edad:</label>
+                    <input type="number" id="edad" name="edad" required><br>
+                </div>
+                <div class="botones_especiales">
+                    <label for="genero">Genero</label>
+                    <div>
+                        <input type="radio" id="femenino" name="genero" value="Femenino">
+                        <label for="femenino">Femenino</label>
+                        <input type="radio" id="masculino" name="genero" value="Masculino">
+                        <label for="masculino">Masculino</label>
+                    </div>
+                    <hr>
+                </div>
+                <div class="botones_especiales">
+                    <label for="musica_favorita">Musica Favorita</label>
+                    <div>
+                        <input type="checkbox" id="Rock" name="musica" value="rock">
+                        <label for="rock">Rock</label>
+                        <input type="checkbox" id="Cumbia" name="musica" value="cumbia">
+                        <label for="cumbia">Cumbia</label>
+                        <input type="checkbox" id="Salsa" name="musica" value="salsa">
+                        <label for="salsa">Salsa</label>
+                        <input type="checkbox" id="reggeton" name="musica" value="reggeton">
+                        <label for="reggeton">Reggeton</label>
+                    </div>
+                    <hr>
+                </div>
+            </fieldset>
+            <fieldset>
+                <div class="elemento">
+                    <label for="autos">Marca de Auto Favorito</label>
+                    <select name="auto" id="auto">
+                        <option value="sedan" selected>Sedan</option>
+                        <option value="vagoneta">Vagoneta</option>
+                        <option value="trufi">Trufi</option>
+                        <option value="peta">Peta</option>
+                        <option value="brasilia">Brazilia</option>
+                    </select>
+                    <hr>
+                    <label for="motos">Motos</label>
+                    <select name="motos" id="motos" multiple>
+                        <option value="honda" selected>Honda</option>
+                        <option value="ducatti">Ducatti</option>
+                        <option value="kawasaky">Kawasaky</option>
+                        <option value="kingo">Kingo</option>
+                    </select>
+                    <hr>
+                    
+                </div>
+                <div class="elemento">
+                    <label for="comentario">Comentario</label>
+                    <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+                </div>
+                <br>
+                <div class="elemento">
+                    <input type="submit" value="Enviar" formnovalidate="formnovalidate">
+                    <input type="reset" name="reset" id="reset" value="Limpiar">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
